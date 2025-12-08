@@ -14,6 +14,10 @@
   --bs-dark-rgb: 90, 62, 55;
 }
 
+.btn {
+  font-family: "Poppins", sans-serif;
+}
+
 .btn-primary {
     --bs-btn-color: var(--bs-light);
     --bs-btn-bg: var(--bs-primary);
@@ -45,14 +49,19 @@
 }
 
 .navbar-brand {
-  color: var(--bs-light)
+  color: var(--bs-dark)
 }
 
-body {
+.navbar {
+  font-family: "Poppins", sans-serif;
+  color: var(--bs-dark);
+}
+
+h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3 {
+h1, body {
   font-family: "EB Garamond", serif;
 }
 
