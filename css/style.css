@@ -17,11 +17,31 @@
 .btn-primary {
     --bs-btn-color: var(--bs-light);
     --bs-btn-bg: var(--bs-primary);
-    --bs-btn-border-color: var(--primary);
+    --bs-btn-border-color: var(--bs-primary);
 
-    --bs-btn-hover-color: var(--primary);
-    --bs-btn-hover-bg: var(--bs-light);
-    --bs-btn-hover-border-color: var(--light);
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-dark);
+    --bs-btn-hover-border-color: var(--bs-dark);
+}
+
+.btn-dark {
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-bg: var(--bs-dark);
+    --bs-btn-border-color: var(--bs-dark);
+
+    --bs-btn-hover-color: var(--bs-light);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+}
+
+.btn-secondary {
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-bg: var(--bs-secondary);
+    --bs-btn-border-color: var(--bs-secondary);
+
+    --bs-btn-hover-color: var(--bs-secondary);
+    --bs-btn-hover-bg: var(--bs-dark);
+    --bs-btn-hover-border-color: var(--bs-dark);
 }
 
 .navbar-brand {
@@ -37,7 +57,7 @@ h1, h2, h3 {
 }
 
 #hero {
-  height: 800px;
+  height: 500px;
   background-color: #E4E6DB;
   background-image: url(../images/home-hero.jpg);
   background-repeat: no-repeat;
