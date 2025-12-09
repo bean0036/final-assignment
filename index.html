@@ -10,6 +10,10 @@
 
      <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -20,42 +24,34 @@
     <header class="sticky-top">
 
       <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+        <div class="container-fluid px-lg-5 mx-lg-5">
+         <img src="images/header-logo.png" class="img-fluid" width="35" height="auto" alt="Cafe Cristal logo">
+         <a class="navbar-brand me-auto px-1" href="index.html">Cafe Cristal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-        <div class="text-center row">
-        <p>Monday - Saturday - 09:am - 09:pm | Sunday - 09:am - 07:pm</p>
-        </div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
 
-        <div class="row">
-          <div class="container-fluid px-lg-5 mx-lg-5">
-          <img src="images/header-logo.png" class="img-fluid" width="35" height="auto" alt="Cafe Cristal logo">
-          <a class="navbar-brand me-auto px-1" href="index.html">Cafe Cristal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
 
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="menu.html">Menu</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="booking.html">Booking</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="about-us.html">About Us</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+            </ul>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="booking.html">Booking</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="events.html">Events</a>
-                </li>
-              </ul>
-
-            </div>
           </div>
         </div>
-        
       </nav>
 
     </header>
@@ -63,55 +59,70 @@
 
     <main>
 
-      <section id="hero">
-        <div class="container-lg pt-5"> 
+      <section id="hero-home">
+        <div class="container-fluid pt-5"> 
           <div class="d-flex justify-content-center align-items-top m-lg-5">
-            <div class="container text-center mx-4">
-              <h1 class="mx-lg-5 px-lg-5">Discover your new go-to</h1>
-              <p class="lead mx-lg-5 px-lg-5">Need an escape? Beat the stress and reconnect at Cafe Cristal.</p>
-              <button type="button" class="btn btn-dark">Learn more</button>
+            <div class="container text-center my-3 py-5">
+              <h1 class="mx-lg-5 px-lg-5 animate__animated animate__bounce">Discover your new go-to</h1>
+              <p class="lead mx-lg-5 px-lg-5">Need an escape? Beat the stress and reconnect at Cafe Cristal</p>
+              <button type="button" class="btn btn-dark rounded-pill mt-3 mb-5 animate__animated animate__fadeIn">Learn more</button>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-light text-dark">
+      <section class="row col row-cols-lg-2">
 
-        <div class="container text-center col-sm-12 col-lg-6">
-          <h2>Discover Our Menu</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugi mi sit amet suscipit. </p>
-        </div>
-
-        <div class="row col-sm-12 col-lg-6">
-              <img src="images/home-menu.jpg" alt="family enjoying dinner" class="img-fluid">
+        <div class="container">
+          <h2 class="ms-5 text-dark pb-2">Discover Our Menu</h2>
+          <p class="mx-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugi mi sit amet suscipit. </p>
+            <div>
+              <button type="button" class="btn btn-secondary rounded-pill mt-3 mb-5 ms-5">View all</button>
+              <button type="button" class="btn btn-primary rounded-pill mt-3 mb-5 ms-2">Order now</button>
+            </div>
         </div>
 
         <div>
-          <button type="button" class="btn btn-secondary">View all</button>
-          <button type="button" class="btn btn-primary">Order now</button>
+              <img src="images/home-menu.jpg" alt="crepes on plates surrounding vase of white flowers" class="img-fluid">
         </div>
-          
       </section>
 
-      <section class="text-dark">
-        <div class="container text-center">
-          <h2>Discover Our Menu</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugi mi sit amet suscipit. </p>
-          <div class="row">
-            <div class="col-sm-12 col-lg-6 order-2 order-lg-1">
-              <img src="images/home-menu.jpg" alt="family enjoying dinner" class="img-fluid">
+      <section class="bg-light row col row-cols-lg-2">
+
+        <div class="container">
+          <h2 class="ms-5 pb-2 text-dark">High Tea Service</h2>
+          <p class="mx-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugi mi sit amet suscipit. </p>
+            <div>
+            <button type="button" class="btn btn-secondary rounded-pill mt-3 mb-5 ms-5">Learn more</button>
+            <button type="button" class="btn btn-primary rounded-pill mt-3 mb-5 ms-2">Book now</button>
+          </div>
+        </div>
+        
+
+        <div>
+              <img src="images/home-high-tea.jpg" alt="crepes on plates surrounding vase of white flowers" class="img-fluid">
+        </div>
+      </section>
+
+      <section>
+        <h2 class="ms-5 pb-2 text-dark">Gallery</h2>
+        <div class="container">
+          <div class="row row-cols-lg-4 row-cols-1">
+            <div class="col">
+              <img src="images/gallery-1.jpg" alt="gallery image 1">
+            </div>
+              <div class="col">
+                <img src="images/gallery-2.jpg" alt="gallery image 2">
+              </div>
+            <div class="col">
+              <img src="images/gallery-3.jpg" alt="gallery image 3">
+            </div>
+            <div class="col">
+              <img src="images/gallery-4.jpg" alt="gallery image 4">
             </div>
           </div>
-          <button type="button" class="btn btn-secondary">Learn more</button>
-          <button type="button" class="btn btn-primary">Book now</button>
-        </div>
-      </section>
 
-      <section class="bg-light text-dark">
-        <div class="container text-center">
-          <h2>Gallery</h2>
-          
-        </div>
+          </div>
       </section>
 
     </main>
@@ -122,11 +133,11 @@
         <div class="d-flex justify-content-between text-light">
 
           <ul class="d-flex justify-content-between align-items-center list-unstyled">
-            <li><p>CONTACT</p></li>
+            <li class="pe-5"><h4>Contact</h4></li>
             
-            <li class="pe-3"><a href="#"><img src="images/footer-instagram-logo.png" alt="Instagram logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="#"><img src="images/footer-mail.png" alt="Instagram logo" width="35" height="auto"></a></li>
 
-            <li><a href="#"><img src="images/footer-facebook-logo.png" alt="Facebook logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="#"><img src="images/footer-email.png" alt="Facebook logo" width="35" height="auto"></a></li>
           </ul>
 
           <div>
@@ -134,11 +145,11 @@
           </div>
       
           <ul class="d-flex justify-content-between align-items-center list-unstyled">
-            <li class="pe-3"><a href="#"><img src="images/footer-instagram-logo.png" alt="Instagram logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="https://www.instagram.com/cafe_cristal_canada/?hl=en"><img src="images/footer-instagram-logo.png" alt="Instagram logo" width="35" height="auto"></a></li>
 
-            <li><a href="#"><img src="images/footer-facebook-logo.png" alt="Facebook logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="https://www.facebook.com/CafeCristalCanada/"><img src="images/footer-facebook-logo.png" alt="Facebook logo" width="35" height="auto"></a></li>
 
-            <li><a href="#"><img src="images/footer-tiktok-logo.png" alt="Tiktok logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="https://www.tiktok.com/@cafecristal"><img src="images/footer-tiktok-logo.png" alt="Tiktok logo" width="35" height="auto"></a></li>
           </ul>
         </div>    
       </div>

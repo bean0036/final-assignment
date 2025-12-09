@@ -9,6 +9,11 @@
 
      <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -48,40 +53,102 @@
         </div>
       </nav>
     </header>
+  
+  <main>
 
-
-    <div class="task">
-      <div class="card" style="width: 25%">
-        <img class="card-img-top" src="images/menu-morning-glory.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Morning Glory</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugiat mi sit amet suscipit. </p>
+    <section id="hero-menu">
+        <div class="container-fluid pt-5"> 
+          <div class="d-flex justify-content-center align-items-top m-lg-5">
+            <div class="container text-center my-3 py-5">
+              <h1 class="mx-lg-5 px-lg-5 animate__animated animate__bounce">Sweater weather is here!</h1>
+              <p class="lead mx-lg-5 px-lg-5">Fall in love with fall and try our limited-time items</p>
+              <button type="button" class="btn btn-dark rounded-pill mt-3 mb-5 animate__animated animate__fadeIn">Seasonal menu</button>
+            </div>
+          </div>
         </div>
+      </section>
+
+    <section class="text-bg-light pt-5">
+      <div>
+        <h2 class="text-primary text-center">MENU</h2>
       </div>
-        <button class="btn btn-primary">View all</button>
-    </div>
+
+      <h3 class="ms-5 text-dark">Food & Drinks</h3>
+
+    <div class="row row-cols-1 row-cols-lg-2 ms-5 px-0">
+      <div>
+        <div>
+          <div class="card border-0 mt-5 " style="width: 18rem;">
+            <img src="images/menu-morning-glory.jpg" class="card-img-top border-0 img-fluid" alt="morning glory crepe" height="250px">
+            <div class="card-body">
+              <h4>Morning Glory</h4>
+              <h5 class="text-primary">$5.25</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugiat mi sit amet suscipit. </p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-secondary rounded-pill mt-3 mb-5">View all</button>
+      </div>
     
-     <div class="task">
-      <div class="card" style="width: 25%">
-        <img class="card-img-top" src="images/menu-caramel-latte.jpg">
-        <div class="card-body">
-          <h5 class="card-title">Caramel Latte</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugiat mi sit amet suscipit. </p>
+      <div>    
+        <div>
+          <div class="card border-0 mt-5" style="width: 18rem;">
+            <img src="images/menu-caramel-latte.jpg" class="card-img-top border-0 img-fluid" alt="caramel latte in mug" height="250px">
+            <div class="card-body">
+              <h4>Caramel Latte</h4>
+              <h5 class="text-primary">$5.25</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie. Nunc ut rutrum nulla. Nullam dignissim feugiat mi sit amet suscipit. </p>
+            </div>
+          </div>
         </div>
+        <button class="btn btn-secondary rounded-pill mt-3 mb-5">View all</button>
       </div>
-        <button class="btn btn-primary">View all</button>
     </div>
+  </section>
+
+  <section class="pt-5">
+    <h3 class="ms-5 text-dark">High Tea Menu</h3>
+    
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img src="images/menu-high-tea-savoury.webp" alt="spread of savoury food" class="img-fluid">
+          <h4 class="text-dark">Savoury Bites</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="images/menu-high-tea-sweet.webp" alt="spread of sweet food" class="img-fluid">
+          <h4 class="text-dark">Sweet Bites</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="images/menu-high-tea-drinks.webp" alt="teapot" class="img-fluid" height="400px">
+          <h4 class="text-dark">Drinks</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor ante, pharetra sed tortor id, bibendum aliquet massa. Aenean iaculis elit sed orci suscipit, ut tincidunt nunc molestie.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-primary rounded-pill mt-3 mb-5 align-items-center">Book now</button>
+    </div>
+  </section>
+
+</main>
 
     <footer class="bg-dark">
       <div class="container-lg mx-6 align-items-center pt-4 px-0">
         <div class="d-flex justify-content-between text-light">
 
           <ul class="d-flex justify-content-between align-items-center list-unstyled">
-            <li><p>CONTACT</p></li>
+            <li class="pe-5"><h4>Contact</h4></li>
             
-            <li class="pe-3"><a href="#"><img src="images/footer-instagram-logo.png" alt="Instagram logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="#"><img src="images/footer-mail.png" alt="Instagram logo" width="35" height="auto"></a></li>
 
-            <li><a href="#"><img src="images/footer-facebook-logo.png" alt="Facebook logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="#"><img src="images/footer-email.png" alt="Facebook logo" width="35" height="auto"></a></li>
           </ul>
 
           <div>
@@ -89,11 +156,11 @@
           </div>
       
           <ul class="d-flex justify-content-between align-items-center list-unstyled">
-            <li class="pe-3"><a href="#"><img src="images/footer-instagram-logo.png" alt="Instagram logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="https://www.instagram.com/cafe_cristal_canada/?hl=en"><img src="images/footer-instagram-logo.png" alt="Instagram logo" width="35" height="auto"></a></li>
 
-            <li><a href="#"><img src="images/footer-facebook-logo.png" alt="Facebook logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="https://www.facebook.com/CafeCristalCanada/"><img src="images/footer-facebook-logo.png" alt="Facebook logo" width="35" height="auto"></a></li>
 
-            <li><a href="#"><img src="images/footer-tiktok-logo.png" alt="Tiktok logo" width="35" height="auto"></a></li>
+            <li class="pe-5"><a href="https://www.tiktok.com/@cafecristal"><img src="images/footer-tiktok-logo.png" alt="Tiktok logo" width="35" height="auto"></a></li>
           </ul>
         </div>    
       </div>
